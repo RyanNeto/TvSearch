@@ -1,0 +1,75 @@
+body{
+    display: block;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: "top";
+    src: url(../fonts/LuckiestGuy-Regular.ttf);
+  }
+
+img{
+    width: 125px;
+    vertical-align: middle;
+}
+#marcaNome{
+    color: rgb(99, 99, 99);
+    font-family: "top";
+    font-size: 300%;
+    vertical-align: middle;
+}
+.marca{
+    background-color: lightskyblue;
+}
+.container{
+    background-color: white;
+}
+#container{
+    margin: 0%;
+    background-color: #dddddd;
+    padding: 40px;
+    position: relative;
+    display: block;
+}
+#pesquisar{
+    width: 40%;
+    transform: translate(60%);
+    border-radius: 15px;
+    outline: none;
+    font-size: 150%;
+    text-align: center;
+}
+#filmes{
+    display: flex;
+    padding: 20px;
+}
+#E{
+    border-style: solid;
+    margin: 10px;
+    padding: 20px;
+
+}
+#img{
+    width: 200px;
+}
+
+
+h3{
+    color: black !important;
+    font-family: "top";
+    
+}
+p{
+    background-color: lightskyblue;
+    outline: 2px solid black;
+    
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+a:hover{
+    outline: none;
+    color: red;
+}
+
